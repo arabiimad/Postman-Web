@@ -2,7 +2,7 @@
   <nav class="navbar navbar-dark bg-dark">
     <div class="container d-flex justify-content-between align-items-center">
       <a class="navbar-brand" href="#">Web Postman Vue</a>
-      <button @click="toggleTheme" class="btn btn-outline-light">
+      <button  data-cy="toggle-theme" @click="toggleTheme" class="btn btn-outline-light">
         {{ darkMode ? "🌙 Mode Sombre" : "☀️ Mode Clair" }}
       </button>
     </div>
